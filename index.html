@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple starter</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <main>
+          <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                  <div class="hero__logo-wrapper">
+                    <a class="hero__logo" href="index.html">
+                      <img class="hero__logo-img" src="img/site-logo.svg" alt="site-logo" width="32" height="32">
+                    </a>
+                    <h2 class="hero__logo-title">
+                      Dashboard Kit
+                    </h2>
+                  </div>
+
+                  <ul class="hero__list">
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/Overview-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Overview
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/ticket-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Tickets
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/ideas-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Ideas
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/contacts-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Contacts
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/agents-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Agents
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/articles-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Articles
+                      </a>
+                    </li>
+
+                    <hr class="hero__dvider">
+
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/settings-img.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Settings
+                      </a>
+                    </li>
+                    <li class="hero__item">
+                      <img class="hero__small-img" src="img/Subscription.svg" alt="Overview-img" width="16" height="15">
+                      <a class="hero__img-link" href="#">
+                        Subscription
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div class="hero__sheet">
+                    <div class="hero__sheet-content">
+                      <h2 class="hero__sheet-title">
+                        Tickets
+                      </h2>
+                      <div class="hero__sheet-wrapper">
+                        <img class="hero__sheet-search-img" src="img/search-img.svg" alt="search-img" width="15" height="15">
+                        <img class="hero__sheet-vector-img" src="img/vector-img.svg" alt="vector-img" width="16" height="16">
+                        <hr class="hero__sheet-dotted">
+                        <h3 class="hero__sheet-name">
+                          Jones Ferdinand
+                        </h3>
+                        <img 
+                        class="hero__sheet-people-img" 
+                        src="https://images.generated.photos/3g5scqPlPB8jberoKJXTPTCtiRXbbRXe9o--F3Cs3uE/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTMxMDgwLmpwZw.jpg" 
+                        alt="peopla-img" 
+                        width="44" 
+                        height="44">
+                      </div>
+                    </div>
+
+                    <div class="hero__father-section">
+                      <div class="hero__sort-section">
+                          <h3 class="hero__teckets-title">
+                            All tickets
+                          </h3>
+
+                          <form class="hero__form js-form-select">
+                            <img class="hero__sort-img" src="img/sort-img.svg" alt="sort-img" width="14" height="12">
+    
+                            <select class="hero__sort-select js-sort-select">
+                              <option  selected disabled>
+                                Sort
+                              </option>
+                              <option value="az">
+                                Aa-Zz
+                              </option>
+                              <option value="za">
+                                Zz-Aa
+                              </option>
+                              <option value="new-old">
+                                New-Old
+                              </option>
+                              <option value="old-new">
+                                Old-New
+                              </option>
+                            </select>
+  
+                            <img src="img/filter-img.svg" alt="filter-icon" width="12" height="12">
+  
+                            <select class="hero__filter-select js-filter-select">
+                              <option value="filter">
+                                Filter
+                              </option>
+                              <option value="high">
+                                High
+                              </option>
+                              <option value="low">
+                                Low
+                              </option>
+                              <option value="normal">
+                                Normal
+                              </option>
+                            </select>
+                          </form>
+                      </div>
+
+                      <div class="hero__ticket-about">
+                        <span class="hero__ticket-details">
+                          Ticket details
+                        </span>
+                        <span class="hero__ticket-names">
+                          Customer name
+                        </span>
+                        <span class="hero__ticket-data">
+                          Date
+                        </span>
+                        <span class="hero__ticket-priorities">
+                          Priority
+                        </span>
+                      </div>
+
+                      <ul class="hero__user-list js-list">  
+                       
+                    </ul>
+                    </div>
+                    <div class="hero__pagination">
+                      <p class="hero__page-text">
+                        Rows per page:
+                      </p>
+                      <select class="hero__page-select">
+                        <option value="">8</option>
+                        <option value="">10</option>
+                        <option value="">12</option>
+                      </select>
+
+                      <span class="hero__page">
+                        1-8 of 1240
+                      </span>
+                      <button class="hero__left-btn js-left-btn"><</button>
+                      <button class="hero__right-btn js-right-btn">></button>
+                    </div>
+                </div>
+
+            </div>
+          </section>
+        </main>
+
+
+        <template class="js-template">
+          <li class="hero__user-item user-item">
+            <img 
+            class="hero__user-img user-img"
+            src="https://images.generated.photos/3g5scqPlPB8jberoKJXTPTCtiRXbbRXe9o--F3Cs3uE/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NTMxMDgwLmpwZw.jpg" 
+            alt="people-img"
+            width="44" 
+            height="44">
+           <div class="hero__user-wrapper">
+            <h4 class="hero__user-email user-email">
+              Contact Email not Linked
+            </h4>
+            <span class="hero__user-about user-about">
+              Updated 1 day ago
+            </span>
+           </div>
+
+
+           <div class="hero__customer-name">
+            <h4 class="hero__user-name user-name">
+              Tom Cruise
+            </h4>
+            <span class="hero__user-years user-years">
+              on 24.05.2019
+            </span>
+           </div>
+
+           <div class="hero__user-date">
+            <h4 class="hero__user-name user-data">
+              May 26, 2019
+            </h4>
+            <span class="hero__user-years user-time">
+              6:30 PM
+            </span>
+           </div>
+
+           <span class="hero__user-priority js-priority">
+            High
+          </span>
+          </li>
+        </template>
+
+        <script src="js/users.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+`

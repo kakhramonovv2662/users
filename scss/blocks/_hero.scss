@@ -1,0 +1,355 @@
+.hero {
+  margin: 50px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    max-width: 255px;
+    width: 100%;
+    height: 850px;
+    background: #363740;
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__logo-img {
+    display: block;
+    margin-right: 10px;
+  }
+
+  &__logo-title {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #a4a6b3;
+    opacity: 0.7;
+  }
+
+  //   &__list {
+  //     padding-left: 40px;
+  //   }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 40px;
+
+    &:hover {
+      color: #c42020 !important;
+      background-color: #565764;
+    }
+
+    &:active {
+      background-color: #565764;
+      opacity: 0.7;
+      padding-left: 40px;
+    }
+  }
+
+  &__small-img {
+    margin-right: 20px;
+  }
+
+  &__img-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #a4a6b3;
+  }
+
+  &__dvider {
+    max-width: 253px;
+    width: 100%;
+    height: 0;
+    margin-bottom: 12px;
+    border: none;
+    border: 1px solid #565764;
+    background-color: #565764;
+  }
+
+  &__sheet {
+    max-width: 800px;
+    width: 100%;
+    height: 850px;
+    background: #f7f8fc;
+  }
+
+  &__sheet-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  &__sheet-title {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+  }
+
+  &__sheet-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__sheet-vector-img {
+    margin-left: 13px;
+  }
+
+  &__sheet-dotted {
+    width: 20px;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    border: 1px solid #dfe0eb;
+    background-color: #dfe0eb;
+  }
+
+  &__sheet-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+    margin-left: 15px;
+  }
+
+  &__sheet-people-img {
+    border-radius: 50%;
+    margin-left: 12px;
+  }
+
+  &__father-section {
+    background: #ffffff;
+    border: 1px solid #dfe0eb;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 15px;
+  }
+
+  &__sort-section {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 45px;
+  }
+
+  &__teckets-title {
+    margin-right: 400px;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+
+  &__sort-select {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: #252733;
+    color: #fff;
+    padding: 5px;
+  }
+
+  &__filter-select {
+    border: none;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #252733;
+    color: #fff;
+    padding: 5px;
+  }
+
+  &__ticket-details {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+    padding-left: 15px;
+    padding-right: 240px;
+  }
+
+  &__ticket-names {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+    padding-right: 95px;
+  }
+
+  &__ticket-data {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+    margin-right: 46px;
+  }
+
+  &__ticket-priorities {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9fa2b4;
+    padding-left: 38px;
+  }
+
+  &__user-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe0eb;
+    padding: 14px;
+
+    &:last-child() {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__user-img {
+    border-radius: 50%;
+    margin-right: 25px;
+  }
+
+  &__user-wrapper {
+    max-width: 170px;
+    width: 100%;
+    margin-right: 120px;
+  }
+
+  &__user-email {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+  }
+
+  &__user-about {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #c5c7cd;
+  }
+
+  &__customer-name {
+    max-width: 150px;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  &__user-name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+  }
+
+  &__user-years {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #c5c7cd;
+  }
+
+  &__user-date {
+    max-width: 100px;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  &__user-priority {
+    max-width: 70px;
+    width: 100%;
+    border: 1px solid #f00;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #f00;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.7;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+  }
+
+  &__page-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+  }
+
+  &__page-select {
+    margin-right: 15px;
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    color: #4b506d;
+    background-color: #fff;
+    background: #f7f8fc;
+  }
+
+  &__page {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    color: #9fa2b4;
+    padding-right: 20px;
+  }
+
+  &__left-btn {
+    color: #9fa2b4;
+    border: none;
+    padding-right: 25px;
+    background: #f7f8fc;
+  }
+
+  &__right-btn {
+    color: #9fa2b4;
+    border: none;
+    background: #f7f8fc;
+  }
+}
